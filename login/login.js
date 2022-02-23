@@ -8,6 +8,10 @@ if(username=="admin" || email == "u@i.ua" || password =="user" || phone=="073415
     alert("login succesfully");
     return false;
 }
+//else if (username == username[0].toUpperCase() || email === "u@i.ua" || password === "user" || phone === "0734154644") {
+   // alert("login success");
+   // return false;
+ //} 
 else{
     alert('login failed');
 }
